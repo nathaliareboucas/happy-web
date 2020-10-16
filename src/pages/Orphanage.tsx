@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from 'react-router-dom';
-import { FaWhatsapp } from "react-icons/fa";
 import { FiClock, FiInfo } from "react-icons/fi";
 import { Map, Marker, TileLayer } from "react-leaflet";
 
@@ -16,7 +15,7 @@ interface Orphanage {
   about: string,
   instructions: string,
   opening_hours: string,
-  open_on_weekeds: boolean,
+  open_on_weekends: boolean,
   images: Array<{
     url: string,
     id: number
@@ -106,7 +105,7 @@ export default function Orphanage() {
                 Segunda à Sexta <br />
                 {orphanage.opening_hours}
               </div>
-              {orphanage.open_on_weekeds ? (
+              {orphanage.open_on_weekends ? (
                 <div className="open-on-weekends">
                   <FiInfo size={32} color="#39CC83" />
                   Atendemos <br />
