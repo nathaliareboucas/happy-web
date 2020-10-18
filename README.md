@@ -1,4 +1,15 @@
-Front-end application using React, created during Rocketseat week NLW3.
+<h1 align="center">happy</h1>
+<p>O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz. O projeto foi iniciado durante a semana Next Level Week 3 da Rocketseat e utiliza React no front-end web, Node JS no back-end e React Native para o desenvolvimento do aplicativo mobile.</p>
+
+<p align="center">
+    <a href="https://github.com/nathaliareboucas/happy-banck-end">🔗 Backend</a> 
+    | 
+    <a href="https://github.com/nathaliareboucas/happy-mobile">🔗 Mobile</a>
+</p> 
+
+[![MADE](https://img.shields.io/badge/Made%20with-React-blue.svg)](https://pt-br.reactjs.org/)
+<img alt="Project stage: Development" src="https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" />
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,3 +55,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## License
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
